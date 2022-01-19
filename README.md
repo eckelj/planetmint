@@ -1,5 +1,5 @@
 <!---
-Copyright © 2020 Interplanetary Database Association e.V.,
+Copyright © 2022 Interplanetary Database Association e.V.,
 BigchainDB and IPDB software contributors.
 SPDX-License-Identifier: (AGPL-3.0-or-later AND CC-BY-4.0)
 Code is AGPL-3.0-or-later and docs are CC-BY-4.0
@@ -21,12 +21,20 @@ so show the latest GitHub release instead.
 
 This repository is for _Planetmint Server_.
 
-Planetmint is a tendermint based DLT application - an extended version of [BigchainDB](https://github.com/bigchaindb) (like version 3.0 of BigchainDB) - that comes with 
-* compatibility to the latest tendermint version (0.35.15)
-* upcoming integration of [Zenroom](https://zenroom.org/)
-* [Tarantool](https://www.tarantool.io/en/) as a storage solution 
-* [Verifiable Conditions](https://w3c-ccg.github.io/verifiable-conditions/#:~:text=A%20verifiable%20condition%20type%20MUST,object%20property%20for%20that%20condition.&text=The%20Delegated%20fulfillment%20condition%20MUST,an%20array%20of%20DID%20URLs.)
+Planetmint is a tendermint based DLT application - an extended version of [BigchainDB](https://github.com/bigchaindb) (like version 3.0 of BigchainDB). 
+BigchainDB GmbH has handed over all copyrights of the [Bigchaindb repositories](https://github.com/bigchaindb) to IPDB Foundation e.V..
+The IPDB Foundation e.V. decided to rename the upcoming releases and developments of the bigchaindb application stack as the co-existance of BigchainDB GmbH and the application raised confusion.
+Therefore, the version 3 of bigchaindb got renamed to planetmint.
+
+The name Planetmint consists of two parts, _mint_ reflects the relation of the used [Tendermint](https://tendermint.com/) consensus layer, and _planet_ reflects the belonging to the IPDB Foundation e.V..
+The following major aspects will be addressed in the upcoming releases.
+* essential code parts like crypto conditions will be replaced by [Verifiable Conditions](https://w3c-ccg.github.io/verifiable-conditions/#:~:text=A%20verifiable%20condition%20type%20MUST,object%20property%20for%20that%20condition.&text=The%20Delegated%20fulfillment%20condition%20MUST,an%20array%20of%20DID%20URLs.)
+* [Tarantool](https://www.tarantool.io/en/) will repalce MongoDB as a storage solution 
+* [Zenroom](https://zenroom.org/) will extend the contract logic 
+* A much more flexible [Tendermint](https://tendermint.com/) integration (supporting version 0.35.15)
 * New transactions types to support industrial adapation and integration of DLT technology
+
+The IPDB Foundation e.V. decided to put the code under AGPL3 to foster community building and code contributions from all its users and developers.
 
 ## The Basics
 

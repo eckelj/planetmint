@@ -23,9 +23,9 @@ This repository is for _Planetmint Server_.
 
 Planetmint is a tendermint based DLT application - an extended version of [BigchainDB](https://github.com/bigchaindb) (like version 3.0 of BigchainDB) - that comes with 
 * compatibility to the latest tendermint version (0.35.15)
-* upcoming integration of [Zenroom ](https://zenroom.org/)
+* upcoming integration of [Zenroom](https://zenroom.org/)
 * [Tarantool](https://www.tarantool.io/en/) as a storage solution 
-* [Verifiable Conditions](https://w3c-ccg.github.io/verifiable-conditions/#:~:text=A%20verifiable%20condition%20type%20MUST,object%20property%20for%20that%20condition.&text=The%20Delegated%20fulfillment%20condition%20MUST,an%20array%20of%20DID%20URLs.)]
+* [Verifiable Conditions](https://w3c-ccg.github.io/verifiable-conditions/#:~:text=A%20verifiable%20condition%20type%20MUST,object%20property%20for%20that%20condition.&text=The%20Delegated%20fulfillment%20condition%20MUST,an%20array%20of%20DID%20URLs.)
 * New transactions types to support industrial adapation and integration of DLT technology
 
 ## The Basics
@@ -35,7 +35,7 @@ Documenation relies on BigchainDB documentation, please bare in mind that all of
 * [Read the Planetmint 2.0 whitepaper](https://www.bigchaindb.com/whitepaper/)
 * [Check out the _Hitchiker's Guide to Planetmint_](https://www.bigchaindb.com/developers/guide/)
 
-## Run and Test Planetmint Server from the `master` Branch
+## Run and Test Planetmint Server from the `main` Branch
 
 Running and testing the latest version of Planetmint Server is easy. Make sure you have a recent version of [Docker Compose](https://docs.docker.com/compose/install/) installed. When you are ready, fire up a terminal and run:
 

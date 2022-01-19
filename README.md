@@ -1,8 +1,8 @@
 <!---
 Copyright © 2020 Interplanetary Database Association e.V.,
-Planetmint and IPDB software contributors.
-SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
-Code is Apache-2.0 and docs are CC-BY-4.0
+BigchainDB and IPDB software contributors.
+SPDX-License-Identifier: (AGPL-3.0-or-later AND CC-BY-4.0)
+Code is AGPL-3.0-or-later and docs are CC-BY-4.0
 --->
 
 <!--- There is no shield to get the latest version
@@ -19,21 +19,29 @@ so show the latest GitHub release instead.
 
 # Planetmint Server
 
-Planetmint is the blockchain database. This repository is for _BigchainDB Server_.
+This repository is for _Planetmint Server_.
+
+Planetmint is a tendermint based DLT application - an extended version of [BigchainDB](https://github.com/bigchaindb) (like version 3.0 of BigchainDB) - that comes with 
+* compatibility to the latest tendermint version (0.35.15)
+* upcoming integration of [Zenroom ](https://zenroom.org/)
+* [Tarantool](https://www.tarantool.io/en/) as a storage solution 
+* [Verifiable Conditions](https://w3c-ccg.github.io/verifiable-conditions/#:~:text=A%20verifiable%20condition%20type%20MUST,object%20property%20for%20that%20condition.&text=The%20Delegated%20fulfillment%20condition%20MUST,an%20array%20of%20DID%20URLs.)]
+* New transactions types to support industrial adapation and integration of DLT technology
 
 ## The Basics
 
+Documenation relies on BigchainDB documentation, please bare in mind that all of that can still be used. Just refer to Planetmint repositories and packages/images in case you use this documentation. 
 * [Try the Quickstart](https://docs.bigchaindb.com/projects/server/en/latest/quickstart.html)
 * [Read the Planetmint 2.0 whitepaper](https://www.bigchaindb.com/whitepaper/)
-* [Check out the _Hitchiker's Guide to BigchainDB_](https://www.bigchaindb.com/developers/guide/)
+* [Check out the _Hitchiker's Guide to Planetmint_](https://www.bigchaindb.com/developers/guide/)
 
 ## Run and Test Planetmint Server from the `master` Branch
 
 Running and testing the latest version of Planetmint Server is easy. Make sure you have a recent version of [Docker Compose](https://docs.docker.com/compose/install/) installed. When you are ready, fire up a terminal and run:
 
 ```text
-git clone https://github.com/bigchaindb/bigchaindb.git
-cd bigchaindb
+git clone https://github.com/planetmint/planetmint.git
+cd planetmint
 make run
 ```
 
@@ -55,10 +63,12 @@ To view all commands available, run `make`.
 
 ## Links for Everyone
 
-* [Planetmint.com](https://www.bigchaindb.com/) - the main Planetmint website, including newsletter signup
-* [Roadmap](https://github.com/bigchaindb/org/blob/master/ROADMAP.md)
+* [BigchainDB.com](https://www.bigchaindb.com/) - the main Planetmint website, including newsletter signup
+<!--
+* [Roadmap](https://github.com/planetmint/org/blob/master/ROADMAP.md)
 * [Blog](https://medium.com/the-bigchaindb-blog)
 * [Twitter](https://twitter.com/Planetmint)
+-->
 
 ## Links for Developers
 
@@ -66,12 +76,12 @@ To view all commands available, run `make`.
 * [Planetmint Server Documentation](https://docs.bigchaindb.com/projects/server/en/latest/index.html)
 * [CONTRIBUTING.md](.github/CONTRIBUTING.md) - how to contribute
 * [Community guidelines](CODE_OF_CONDUCT.md)
-* [Open issues](https://github.com/bigchaindb/bigchaindb/issues)
-* [Open pull requests](https://github.com/bigchaindb/bigchaindb/pulls)
-* [Gitter chatroom](https://gitter.im/bigchaindb/bigchaindb)
+* [Open issues](https://github.com/planetmint/planetmint/issues)
+* [Open pull requests](https://github.com/planetmint/planetmint/pulls)
+* [Gitter chatroom](https://gitter.im/planetmint/community)
 
 ## Legal
 
 * [Licenses](LICENSES.md) - open source & open content
-* [Imprint](https://www.bigchaindb.com/imprint/)
-* [Contact Us](https://www.bigchaindb.com/contact/)
+* [Imprint](https://ipdb.io/imprint/)
+* [Contact Us](https://ipdb.io/)
